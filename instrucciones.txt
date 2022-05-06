@@ -1,0 +1,34 @@
+¡Hola! Mi nombre es Oscar Iuspa (o ikaridev, si me conoces de algún foro).
+
+Para probar este proyecto es necesario que montes los servidores de React y Laravel. Es muy sencillo.
+
+Debes ingresar con una consola a la carpeta raíz del proyecto.
+==COMANDOS A INGRESAR==
+
+cd react-front
+npm start
+
+Debería abrirse en tu navegador una pestaña en la url: localhost:3000.
+
+Una vez inicializado React, debemos crear una base de datos en MySql para laravel.
+Hazla como quieras, no debería darte problemas.
+Una vez creada la base de datos, reemplaza las credenciales en el archivo .env
+
+DB_DATABASE= nombre_base_datos
+DB_USERNAME= usuario_acceso
+DB_PASSWORD= contraseña_acceso
+
+No te olvides de guardar los cambios.
+Debes ingresar con OTRA consola a la carpeta raiz del proyecto.
+==COMANDOS A INGRESAR==
+
+cd laravel
+php artisan migrate:refresh --seed
+php artisan serve
+
+
+¡Y listo! Ahora en tu pestaña del navegador, que se abrió anteriormente, podrás ver el sistema funcionando correctamente.
+
+Te recomiendo leer el archivo conceptos.txt, para saber más del proyecto.
+
+	

@@ -1,0 +1,14 @@
+¡Hola! Si estás buscando como inicializar el proyecto, dirigite al archivo instrucciones.txt.
+
+Los conceptos abarcados en este proyecto son:
+
+-Laravel-
+Manejo de controladores, creación de tablas a través de migraciones y relleno de las mismas con seeders y models factories.
+
+-React JS-
+Creación de landing page y panel de administrador a través de componentes, obteniendo información de productos desde la API creada con Laravel. Permitiendo crear, editar, eliminar y mostrar dichos productos.
+
+
+
+
+ 
